@@ -18,7 +18,7 @@ public class Book {
         this.quantity = quantity;
     }
 
-    // Getters and Setters
+    
     public String getTitle() {
         return title;
     }
@@ -60,7 +60,7 @@ class EBook extends Book {
         this.fileFormat = fileFormat;
     }
 
-    // Getters and Setters
+    
     public String getFileFormat() {
         return fileFormat;
     }
@@ -90,7 +90,7 @@ class PhysicalBook extends Book {
         this.weight = weight;
     }
 
-    // Getters and Setters
+    
     public double getWeight() {
         return weight;
     }
